@@ -1,0 +1,13 @@
+.Tittle{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#E6E7e8;
+   
+}

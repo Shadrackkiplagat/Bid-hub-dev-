@@ -1,0 +1,246 @@
+/* @import url("https://fonts.googleapis.com/css?family=Font+Name") */
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.footer {
+    text-align: center;
+    background-color: #1478A3;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 479px;
+  }
+.bid{
+  display: inline-flex;
+  padding-right: 0.004px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.4px;
+  margin-right: 840px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+ }
+
+.bidImage{
+  width: 106.908px;
+  height: 109.003px;
+}
+.footerItems{
+  padding: 80px 18px 66px 57px;
+  width: 1125.429px;
+  height: 44px;
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+}
+.footerItem1{
+  width: 290.804px;
+height: 190px;
+flex-shrink: 0;
+}
+.footerItem1 .footerHeader{
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+width: 95px;
+/* Subtitle 1_18 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+}
+.footerItem1 .fitem{
+width: 186.429px;
+height: 24px;
+flex-shrink: 0;
+display: flex;
+}
+.footerItem1 .fitem li{
+  color: var(--White, #F1F1F1);
+  width: 143px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+.footerItem1 .fitem svg{
+  width: 21.086px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 0px 15px 0px 0px;
+}
+.footerItems ul{
+  list-style-type: none;
+  text-align: justify;
+}
+.footerItems ul li{
+  padding-top: 10px;
+  letter-spacing: 1px;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footerHeader{
+  color: #FFF;
+  /* Subtitle 1_18 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  }
+/* .footerHeader{
+  font-weight: bold;
+} */
+/*Company,Legal and Quick links*/
+.footerItems .company-footer{
+width: 415.167px;
+height: 214px;
+flex-shrink: 0;
+display: flex;
+}
+.company-footer .company{
+width: 93.453px;
+height: 166px;
+flex-shrink: 0;
+}
+.company .footerHeader{
+color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Subtitle 1_18 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+width: 93.453px;
+}
+.company li{
+  color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 48.758px;
+}
+/* end of company section */
+.legal{
+  width: 145px;
+  height: 214px;
+  flex-shrink: 0;
+}
+.legal .footerHeader{
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+width: 52.211px;
+/* Subtitle 1_18 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+}
+.legal li{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 144.912px;}
+  /* end of legal */
+.qlinks{
+  width: 109.713px;
+height: 166px;
+flex-shrink: 0;
+}
+.qlinks .footerHeader{
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+width: 109.713px;
+/* Subtitle 1_18 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+}
+.qlinks li{
+  color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 95.866px;
+}
+/* end of quick links */
+.footerItems .footerForm{
+  width: 307px;
+  height: 184px;
+  margin-left: 140px;
+  flex-shrink: 0;    
+  background-color: #1478A3;
+  border-radius: 10px;
+  border: 1px solid var(--White, #F1F1F1);
+
+}
+.footerForm h2{
+  color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Subtitle 1_18 */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+}
+.footerForm h5{
+color: #FFF;
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+opacity: 0.5;
+}
+.fbutton{
+  width: 102px;
+  height: 39px;
+  flex-shrink: 0;
+  background-color:  #086375;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+.finput{
+  width: 169px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--White, #F1F1F1);
+}
+.finput ::placeholder{
+  color: #616161;
+font-family: Poppins;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* end of newsletter */

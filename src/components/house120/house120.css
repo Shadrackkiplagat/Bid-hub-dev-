@@ -1,0 +1,135 @@
+.house12{
+    width: 500px;
+    height: 300px;
+}
+.house1pics{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    gap: 26px;
+    
+    
+    
+}
+.house13-text{
+    display: block;
+}
+.kes{
+    display: flex;
+ 
+}
+.bid1{
+    color: rgb(10, 134, 251);
+}
+.close{
+    padding-top: 3px;
+}
+.time{
+    color: rgb(171, 52, 52);
+    font-size: small;
+}
+.week{
+    padding-top: 3px;
+}
+.date{
+    font-size: 12px;
+    
+}
+.item-details{
+float: right;
+margin: -350px 170px 0px 0px;
+line-height: 20px;
+}
+.view1{
+    font-size: 12px;
+    text-decoration: underline;
+    color:  rgb(10, 134, 251);
+    margin-bottom: 10px;
+}
+.pic-details{
+    font-size: 35px;
+    line-height: 30px;
+}  
+.land-details{
+display: flex;
+gap: 20%;
+line-height: 50px;
+
+}
+.view3{
+    color:rgb(10, 134, 251);
+}
+.head1{
+    padding-top: 2%;
+}
+.btnbid{
+    height: 40px;
+    width: 500px;
+    background-color:rgb(21, 113, 199);
+}
+.btnwatch{
+    height: 40px;
+    width: 500px;
+    margin-top: 4%;
+    color:rgb(10, 134, 251);;
+}
+.sgnbid{
+    color: white;
+}
+.more-info{
+float: right;
+}
+.description{
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.items6{
+  height: 20px;
+  gap: 20px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.print1{
+    display: inline-block;
+}
+.btn-quiz{
+    color:rgba(8, 136, 241, 0.879); 
+    height: 40px;
+    width: 180px;
+    margin-top: 15PX;
+    font-size: 15PX;
+    margin-bottom: 20px;
+}  
+.QA{
+    margin-bottom: 15PX;
+}
+.seller-details{
+    float: right;
+}
+.location-details{
+    float: right;
+}
+.seller-info{
+    line-height: 30px;
+}
+.payment{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.add-info{
+    margin-top: 10px;
+}
+.payment-details{
+    margin-bottom: 40px;
+}
+.similar-items{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    
+}
+.terms-conditions{
+    color: rgb(10, 134, 251);
+    text-decoration: underline;
+}

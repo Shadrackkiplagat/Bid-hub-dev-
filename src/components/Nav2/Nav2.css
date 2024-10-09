@@ -1,0 +1,23 @@
+
+.container2 ul {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0px 0px 0px 80px;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+  
+
+}
+.centered-list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+.centered-list li{
+    text-align: center;
+    padding: 20px 0px 0px 80px;
+    font-size: 18px;
+}

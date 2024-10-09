@@ -1,0 +1,123 @@
+.dashboard {
+    background-color: #FFFFFF;
+    padding: 20PX;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.logo {
+    width: 100px;
+    height: 102px;
+    flex-shrink: 0;
+
+}
+
+.nation-name {
+    color: #000;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 60% */
+    letter-spacing: 0.5px;
+}
+
+.date {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}
+
+.notification-container {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.superadmin {
+    display: flex;
+    height: 58px;
+    padding: 19px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.superadmin-btn {
+    /* display: block; */
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.greetings {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.admin-tittle {
+    color: #000;
+    font-family: serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.top-nav {
+    margin-right: 10px;
+}
+
+.home-dashboard {
+    display: flex;
+    height: 56px;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 10px;
+    background: var(--Primary-Bidhub, #1478A3);
+}
+
+.homepic {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    align-self: stretch;
+    color: var(--PMw, #FFF);
+    /* M3/body/large */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}

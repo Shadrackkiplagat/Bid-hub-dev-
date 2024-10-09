@@ -1,0 +1,294 @@
+/* slider section */
+.slider {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 100%; /* Make the slider responsive */
+  }
+  
+  .slide {
+    position: relative;
+    display: flex; /* Center the image */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-image {
+    width: 75%; /* Keep this responsive */
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    border-radius: 10px;
+    margin: auto; /* Center the image within the slider */
+    transition: opacity 0.5s ease-in-out; /* Add a transition effect */
+  }
+  
+  .caption {
+    position:absolute;
+    bottom: 20%;
+    left: 15%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 200%;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  /* tittle section */
+  .Tittle{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+/* items */
+.Items {
+    display: flex;
+    justify-content: space-between; /* Space between each item */
+    gap: 20px; /* Add spacing between each item */
+    width: 100%; /* Ensure the container takes full width */
+    flex-wrap: nowrap; /* Prevent wrapping */
+  }
+  
+  .Item {
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
+    align-items: center; /* Center the content horizontally */
+    width: 23%; /* Adjust width so that four items fit in a row */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #ddd; /* Optional: add a border */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: box shadow for a nice effect */
+    background-color: #f9f9f9; /* Optional: background color */
+  }
+  
+  .Item img {
+    width: 100%; /* Make the image fill the item’s width */
+    height: auto; /* Maintain the image’s aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+  
+  .caption {
+    margin-top: 10px; /* Add some space between the image and text */
+    text-align: center; /* Center the text */
+  }
+  .Item .btn-trending .eyeimg{
+    height: 50px;
+    width: 20px;
+  }
+  
+  .caption p {
+    margin: 5px 0; /* Add vertical spacing between paragraphs */
+  }
+  
+  .Item .btn-trending {
+    padding: 8px 16px;
+    background-color: #0f0f0ffb; /* Button color */
+    color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    gap: 5px;
+    height: 50px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  /* Heading2 */
+  .Heading2{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 20px;
+}
+/* items 2 section  */
+.Items2 {
+    display: flex;
+    width: 100;
+    flex-wrap: nowrap; /* Allows items to wrap to the next line if necessary */
+    justify-content: space-around; /* Distribute items with some space between them */
+    gap: 20px; /* Add spacing between each item */
+  }
+  
+  .Item {
+    display: flex; /* Align content of each .Item horizontally */
+    align-items: center; /* Center items vertically */
+    width: 300px; /* Set a fixed width for each item */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .Item img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 8px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .caption p {
+    margin: 5px 0;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  /*heading 3 section  */
+  .Heading3{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0 20px;
+}
+/* items 3 section */
+.Items3 {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap; /* Allows items to wrap to the next line if necessary */
+    justify-content: space-around; /* Distribute items with some space between them */
+    gap: 20px; /* Add spacing between each item */
+  }
+  
+  .Item {
+    display: flex; /* Align content of each .Item horizontally */
+    align-items: center; /* Center items vertically */
+    width: 300px; /* Set a fixed width for each item */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .Item img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 8px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .caption p {
+    margin: 5px 0;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  /* heading 4 section */
+  .Heading4{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0 20px;
+    /*margin-left: 45px;*/
+}
+/* items 4 section */
+.Items4 {
+    display: flex;
+    justify-content: space-between; /* Even spacing between items */
+    width: 100%; /* Ensure the container takes up full width */
+    gap: 10px; /* Add smaller spacing between items */
+    flex-wrap: nowrap; /* Prevent wrapping to keep everything in one row */
+  }
+  
+  .Item {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center the content */
+    width: 22%; /* Make sure the item width fits in a single row */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .Item img {
+    width: 100%; /* Ensure image takes the full width of the item */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    text-align: center; /* Center the text */
+  }
+  
+  .caption p {
+    margin: 5px 0;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
