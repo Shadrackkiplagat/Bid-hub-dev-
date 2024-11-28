@@ -1,0 +1,96 @@
+.hero-container {
+    background-color: white;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+   
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: 15%;
+    margin-right: 20%;
+
+  }
+   
+  .hero-image {
+    height: 60px;
+    width: auto;
+    margin-left: -100px;
+  }
+  .container{
+    background-color: #E6E7e8;;
+  }
+   
+  .search-container {
+    flex: 1;
+  }
+   
+  .search-input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 60px;
+  }
+   
+  .hero ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin-right: -180px;
+  }
+   
+  .hero li {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+   
+  .hero .tenders-login,
+  .hero .contact-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+  .hero .login {
+    font-size: 14px;
+    margin-top: 5px;
+    color:#1478A3;
+    cursor: pointer;
+    padding-bottom: 6px;
+    font-weight: 500;
+  }
+   .bidder-login{
+    width:64px;
+    height:35px;
+    border-width: 2px;
+    border-color:#1478A3;
+    margin-top: 6px;
+   }
+  .hero .register {
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: #1478A3;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:0.3s ease;
+  }
+   
+  .hero .register:hover {
+    background-color: darkblue;
+  }
+   /* .... query..... */
+   @media(max-width:1200px)

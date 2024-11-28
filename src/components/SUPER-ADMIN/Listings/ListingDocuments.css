@@ -1,0 +1,25 @@
+.list-new-upload {
+  width: 1085px;
+  height: 644px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.plate-number {
+  width: 532px;
+  height: 63px;
+  background-color: rgba(245, 246, 250, 1);
+  margin-left: 60px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+.plate-direction {
+  display: flex;
+}
+.lr-number {
+  margin-left: 20px;
+  margin-top: 10px;
+}

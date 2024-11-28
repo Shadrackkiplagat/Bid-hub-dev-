@@ -1,0 +1,175 @@
+.permission-bar {
+  width: 1085px;
+  height: 1085px;
+  top: 369px;
+  left: 291px;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.roles-heading {
+  font-size: 20px;
+  margin-left: 130px;
+  padding-top: 30px;
+}
+.roles-text {
+  margin-left: 130px;
+  padding-top: 10px;
+}
+.users-btn {
+  height: 40px;
+  width: 108px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-right: 20px;
+  border-color: black;
+  border-width: 2px;
+}
+.buttons-position {
+  display: flex;
+  gap: 305px;
+}
+.assign-roles-btn {
+  height: 40px;
+  width: 108px;
+  border-radius: 10px;
+  background-color: #1478a3;
+}
+.assign-role-text {
+  color: #fff;
+}
+.admin-access {
+  width: 900px;
+  height: 212px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.315);
+  margin-left: 85px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.auctioneer-manager2 {
+  width: 900px;
+  height: 212px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.315);
+  margin-left: 85px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.auctions-manager {
+  width: 900px;
+  height: 212px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.315);
+  margin-left: 85px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.advert-supervisor {
+  width: 900px;
+  height: 212px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.315);
+  margin-left: 85px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.admin-heading {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-top: 10px;
+  opacity: 0.5;
+}
+/* Styling for the toggle switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 14px;
+  border-radius: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.2s;
+  border-radius: 40px;
+}
+.switch-direction {
+  display: flex;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #1478a3; /* Green when checked */
+}
+
+input:checked + .slider:before {
+  transform: translateX(10px); /* Moves the circle to the right when checked */
+}
+
+.enable-all {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.enable-all {
+  margin-left: 700px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: -4px;
+}
+.toogle-switch {
+  margin-left: 670px;
+  padding-bottom: -50px;
+  position: fixed;
+}
+.toogle-switch-one {
+  margin-left: 10px;
+  position: fixed;
+}
+.switch-one {
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 14px;
+  border-radius: 30px;
+}
+.add-admin {
+  font-weight: 600;
+  padding-top: 5px;
+  padding-left: 50px;
+}
+.admin-text2 {
+  padding-left: 50px;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.315);
+}
+.admin-direction {
+  display: flex;
+}

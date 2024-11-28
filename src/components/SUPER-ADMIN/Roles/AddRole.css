@@ -1,0 +1,174 @@
+.create-new-role{
+width: 1085px;
+height: 200px;
+background-color:#fff;
+margin-top: 20px;
+margin-left: 30px;
+border-radius: 10px;
+}
+.roles-back-icon5{
+width: 24px;
+height: 24px;
+margin-left: 60px;
+}
+.img-addrole-text{
+display: flex;
+gap: 10px;
+padding-top: 10px;
+}
+.add-role-text{
+    font-size: 18px;
+    font-family: 400;
+    line-height: 24px;
+}
+.new-role-create{
+font-size: 24px;
+font-weight: 600;
+margin-left: 60px;
+margin-top: 10px;
+}
+.addrole-line{
+width: 133px;
+height: 1px;
+background-color:rgba(20, 120, 163, 1);
+margin-top: 15px;
+}
+.add-role-line2{
+width: 133px;
+height: 1px;
+background-color: rgba(151 , 151, 151, 1);
+margin-top: 15px;
+}
+.add-role-info{
+margin-top: 20px;
+display: flex;
+gap: 10px;
+}
+.add-role-num1{
+margin-left: 90px;
+}
+.role-steps{
+   display: flex;
+   gap: 95px;
+}
+.basic-info-role{
+margin-left: 80px;
+}
+.basic-details-row{
+width: 1085px;
+height: 642px;
+background-color: #fff;
+margin-left: 30px;
+margin-top: 10px;
+border-radius: 10px;
+}
+.cancel-continue-roles{
+display: flex;
+gap: 10px;
+margin-left: 345px;
+}
+.cancel-roles-btn{
+width:84px;
+height: Fixed (40px)px;
+border-radius: 10px;
+border-width: 1px;
+border-color: rgba(20, 120, 163, 1);
+}
+.cont-roles-btn{
+width: 97px;
+height: 40px;
+background-color: rgba(20, 120, 163, 1);
+border-radius: 10px;
+}
+.cont-roles-text{
+    color: #fff;
+}
+.basic-new-role{
+font-size: 18px;
+font-weight: 500;
+margin-left: 60px;
+padding-top: 40px;
+}
+.new-role-details{
+font-size: 16px;
+font-weight: 400;
+opacity: 0.8;
+margin-left: 60px;
+padding-top: 10px;
+display: flex;
+}
+.roles-reporting-manager{
+width: 215px;
+height:40px;
+left: 796px;
+gap: 8px;
+border-radius: 10px;
+border-width: 1px;
+border-color: black;
+margin-left: 400px;
+margin-bottom: 10px;
+}
+.reporting-manager-text{
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+padding-bottom: 5px;
+margin-left: 5px;
+display: flex;
+gap: 6px;
+}
+.plus-sign{
+font-size: 20px;
+padding-right: 5px;
+}
+.help-role-pic{
+width: 15px;
+height: 15px;
+margin-top: 5px;
+}
+.rmanager-line{
+width: 967px;
+margin-left: 44px;
+border-width: 1px;
+background-color:rgba(65, 64, 66, 0.2);
+}
+.auctioneer-manager-box{
+width: 410px;
+height: 63px;
+top: 146px;
+margin-left: 74px; 
+background-color:rgba(245, 246, 250, 1);
+border-radius: 10px;
+margin-top: 30px;
+}
+.job-level{
+width: 350px;
+height: 33px;
+background-color:rgba(245, 246, 250, 1) ;
+margin-left: 100px;
+margin-top:40px;
+border-radius: 10px;
+}
+.title-job{
+    display: flex;
+}
+.new-role-description{
+width: 410px;
+height: 160px;
+margin-top: 20px;
+background-color:rgba(245, 246, 250, 1);
+margin-left: 74px;
+border-radius: 10px;
+}
+.description-help{
+display: flex;
+gap: 280px;
+}
+.add-users-roles{
+width: 778px;
+height: 198px;
+margin-left:74px;
+background-color:rgba(245, 246, 250, 1) ;
+border-radius: 10px;
+margin-top: 20px;
+}

@@ -1,0 +1,70 @@
+.set-permission-role {
+  width: 1085px;
+  height: 824px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.set-perm-roles {
+  font-size: 20px;
+  margin-left: 130px;
+  padding-top: 30px;
+  font-weight: 500;
+}
+.permission-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 130px;
+}
+.roles-report-manager {
+  display: flex;
+  width: 215px;
+  height: 40px;
+  border-width: 1px;
+  border-color: rgba(56, 55, 55, 0.2);
+  border-radius: 10px;
+  margin-left: 773px;
+  gap: 5px;
+}
+.help-permission {
+  margin-top: 8px;
+}
+.report-manager-txt {
+  margin-left: 8px;
+  margin-top: 5px;
+}
+.line6 {
+  width: 1082px;
+  border-width: 1px;
+  border-color: rgba(56, 55, 55, 0.2);
+  margin-top: 30px;
+}
+.admin-permissions {
+  height: 212px;
+  width: 900px;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: rgba(56, 55, 55, 0.2);
+  margin-left: 130px;
+  margin-top: 20px;
+}
+.admin-perm-direction {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.admin-access-perm {
+  font-weight: 600;
+  opacity: 0.5;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.auctionners-tittle {
+  font-weight: 600;
+}
+.auctionners-text {
+  font-weight: 400;
+  opacity: 0.5;
+}
